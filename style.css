@@ -107,7 +107,6 @@ nav a:hover, #logo:hover {
     margin-left:80px;
   }
   
-  /* Clear floats after the columns */
   .rowHome:after {
     content: "";
     display: table;
@@ -202,7 +201,6 @@ a:link {
     background: #2c8ad5;
   }
   
-  /* Create three equal columns that floats next to each other */
   .column {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
@@ -210,7 +208,6 @@ a:link {
     width: 33.33%; 
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
@@ -253,7 +250,6 @@ a:link {
   }
 
   
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
@@ -302,22 +298,20 @@ a:link {
     margin: auto;
 }
 
-/* CONTACT PAGE /*
+/* CONTACT PAGE */
 
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     font-family: 'Montserrat', sans-serif;
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
   }
   
-  /* Style the submit button with a specific background color etc */
   input[type=submit] {
     font-family: 'Montserrat', sans-serif;
     background-color: #e651ab;
@@ -328,12 +322,10 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: #f13eaa;
   }
   
-  /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
